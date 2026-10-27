@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martin Leis — Games</title>
+  <meta name="description" content="Portfolio of Martin Leis, an independent game developer. Eleven games, including Ohutum autosõit, Flatten the Curve, Kratt, and Found Guilty.">
+  <meta name="theme-color" content="#100e0c">
+  <meta property="og:title" content="Martin Leis — Games">
+  <meta property="og:description" content="Eleven games by independent developer Martin Leis: simulations, stories, puzzles, and client work.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/safer-driving.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,560;1,9..144,500&family=IBM+Plex+Mono:wght@500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" as="image" href="images/safer-driving.png">
+  <noscript>
+    <style>
+      @media (max-width: 720px) {
+        .nav-toggle { display: none !important; }
+        .site-nav { display: flex !important; position: static !important; background: transparent; padding: 0; }
+      }
+    </style>
+  </noscript>
+</head>
+<body id="top">
+  <a class="skip" href="#games">Skip to games</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top">Martin Leis</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only" data-label>Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="kicker">Independent game developer</p>
+      <h1>Systems, stories, and the occasional sheep.</h1>
+      <p class="lede">I'm Martin Leis. My games run from an educational piece for the Estonian Transport Administration to browser experiments in plain JavaScript.</p>
+      <p class="hero-note"><a href="#contact">Open to opportunities</a>, preferably in PC or mobile game development.</p>
+    </section>
+
+    <section id="games" class="wrap" aria-labelledby="games-title">
+      <h2 id="games-title" class="kicker games-label">Games</h2>
+
+      <article class="spotlight" id="safer-driving">
+        <button type="button" class="shot" data-lightbox data-caption="Ohutum autosõit">
+          <img src="images/safer-driving.png" width="1398" height="993" alt="Top-down illustration of a blue car in Ohutum autosõit. A driver, a passenger, a dog, and luggage sit inside while seatbelts and loose items wait to be secured. The Estonian Transport Administration logo is in the corner." decoding="async">
+          <span class="sr-only">Enlarge screenshot</span>
+        </button>
+        <div class="copy">
+          <p class="index">01</p>
+          <h3 lang="et">Ohutum autosõit</h3>
+          <p class="translation">Safer Driving</p>
+          <p class="meta">Educational · Estonian Transport Administration</p>
+          <p class="prose">An educational game made for the Estonian Transport Administration. The player finds a seat for the driver and the passenger, adjusts seatbelts and headrests, then adds a dog and the luggage and fastens everything securely.</p>
+          <p class="links">
+            <a href="https://drive.google.com/file/d/1K9Ba5NqDSIPpJ7bUKTGiS8IDDvV8XvHD/view?usp=sharing" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </div>
+      </article>
+
+      <article class="feature" id="flatten-the-curve">
+        <button type="button" class="shot" data-lightbox data-caption="Flatten the Curve">
+          <img src="images/flatten-the-curve.png" width="635" height="470" alt="Abstract simulation from Flatten the Curve. Colored zones mark fertility, education, business, a café, healthcare, and a mortality hole, with yellow agents moving between open and closed borders. An infection-rate bar sits at the top." loading="lazy" decoding="async">
+          <span class="sr-only">Enlarge screenshot</span>
+        </button>
+        <div class="copy">
+          <p class="index">02</p>
+          <h3>Flatten the Curve</h3>
+          <p class="meta">Society simulation · Ideal 2D gas</p>
+          <p class="prose">A game of managing a society that is fighting a deadly virus. The society is modelled as an ideal 2D gas. The player has to keep the infrastructure for education, business, recreation, and healthcare intact. Opening the borders to exchange students, immigrant workers, or tourists brings benefits, but may also introduce the virus.</p>
+          <p class="links">
+            <a href="https://drive.google.com/file/d/133zG_VkTRuDcm8vVa_loe5mL64oXeROT/view?usp=sharing" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </div>
+      </article>
+
+      <article class="feature reverse" id="kratt">
+        <button type="button" class="shot" data-lightbox data-caption="Kratt">
+          <img src="images/kratt.png" width="681" height="649" alt="Monochrome pixel scene from Kratt. Rain falls over a wooden farmhouse, a fenced pen of sheep, a fox in a cone of light, and a lantern-carrying figure with a pitchfork." loading="lazy" decoding="async">
+          <span class="sr-only">Enlarge screenshot</span>
+        </button>
+        <div class="copy">
+          <p class="index">03</p>
+          <h3 lang="et">Kratt</h3>
+          <p class="meta">GameMaker Studio · Stealth horror</p>
+          <p class="prose">A stealthy horror game made with GameMaker Studio. As rain falls, particles turn into other particles, and drawing with blend modes makes the lanterns glow. Made in a team of two with Rasmus Rikken. I wrote the code, except for the menus, and some of the pixel art.</p>
+          <p class="links">
+            <a href="https://drive.google.com/open?id=1oDHtB6pDJh3w7OcMIrsrDPsO_QbwRmX-" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+            <a href="https://drive.google.com/open?id=1L2BTqfeaHV9k6EyuqWH0iY2UWdtx3799" target="_blank" rel="noopener noreferrer">GameMaker project<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </div>
+      </article>
+
+      <article class="feature" id="found-guilty">
+        <button type="button" class="shot" data-lightbox data-caption="Found Guilty">
+          <img src="images/found-guilty.png" width="853" height="610" alt="Hand-drawn interior from Found Guilty. A gold Buddha statue sits between a sofa and a television, with a dialogue box offering two choices." loading="lazy" decoding="async">
+          <span class="sr-only">Enlarge screenshot</span>
+        </button>
+        <div class="copy">
+          <p class="index">04</p>
+          <h3>Found Guilty</h3>
+          <p class="meta">GameMaker Studio · Dialogue engine</p>
+          <p class="prose">A serious text-based crime investigation game made with GameMaker Studio. A self-made dialogue engine reads a JSON file and keeps track of game state. I worked in a team of four with Laura Einas, Tuuli Maiste, and Endrico Mihelman, doing the coding and the essential story editing.</p>
+          <p class="links">
+            <a href="https://drive.google.com/open?id=1N0ogSKYC6Me3k6o3-W7GB_sGDeuUfuMs" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+            <a href="https://drive.google.com/open?id=1De1Vg1HsgOo1j7nfq4WVxYBmhSn04WZ5" target="_blank" rel="noopener noreferrer">GameMaker project<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </div>
+      </article>
+
+      <article class="feature reverse" id="trekking-in-svaneti">
+        <button type="button" class="shot" data-lightbox data-caption="Trekking in Svaneti">
+          <img src="images/trekking-svaneti.png" width="412" height="412" alt="Sandy path in Trekking in Svaneti, with black boot prints, a green lizard, and a balance bar fading from green to red." loading="lazy" decoding="async">
+          <span class="sr-only">Enlarge screenshot</span>
+        </button>
+        <div class="copy">
+          <p class="index">05</p>
+          <h3>Trekking in Svaneti</h3>
+          <p class="meta">Svaneti, Georgia</p>
+          <p class="prose">A game of keeping your balance in the picturesque county of Svaneti, Georgia. Put one foot in front of the other while avoiding rocks, lizards, and other obstacles. Water, wine, and khachapuri provide energy and consolation.</p>
+          <p class="links">
+            <a href="https://drive.google.com/file/d/1dPgkFRZazdFhLyVuxDYW0XVpVEnlO8gH/view?usp=sharing" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </div>
+      </article>
+
+      <div class="catalog">
+        <article class="card" id="cheap-sheep">
+          <button type="button" class="shot" data-lightbox data-caption="Cheap Sheep">
+            <img src="images/cheap-sheep.png" width="555" height="687" alt="A round, fluffy sheep in a wooden shed in Cheap Sheep, with red marks on its back where the wool has been cut." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">06</p>
+          <h3>Cheap Sheep</h3>
+          <p class="meta">GameMaker Studio · Box2D</p>
+          <p class="prose">A sheep shearing game made with GameMaker Studio. The Box2D physics engine makes the sheep react realistically. The player has to be quick and precise, because the sheep will bleed if cut in. As they earn money, they can buy more sheep and upgrades, and level their sheep up.</p>
+          <p class="links">
+            <a href="https://drive.google.com/open?id=1Y5ZWfIhIEIEvYK_WLijbufWqYdonatCy" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+            <a href="https://drive.google.com/open?id=1oh31Y-z4aaWR7Dkj7DX-rON_CL2qDRiu" target="_blank" rel="noopener noreferrer">GameMaker project<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+
+        <article class="card" id="slug-against-the-robots">
+          <button type="button" class="shot" data-lightbox data-caption="Slug Against the Robots">
+            <img src="images/slug-robots.png" width="707" height="818" alt="Top-down maze from Slug Against the Robots. Cyan tiles form the walls, green creatures fill the paths, an orange submarine sits in the corner, and a robot emits orange rings near a red slug." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">07</p>
+          <h3>Slug Against the Robots</h3>
+          <p class="meta">GameMaker Studio</p>
+          <p class="prose">A dynamic maze game made with GameMaker Studio. The enemies use a sophisticated approach to AI: they track the player while staying dispersed. Tiles get replaced with other tiles, and deactivated enemies get a shader applied to them.</p>
+          <p class="links">
+            <a href="https://drive.google.com/open?id=1u_adCnO61oBrVr9mRgjT6Krf7RdELfsv" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+            <a href="https://drive.google.com/open?id=1SMEO5zRf72VKWhhbzry-t4q5vOjcfBlr" target="_blank" rel="noopener noreferrer">GameMaker project<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+
+        <article class="card" id="leader-of-the-pack">
+          <button type="button" class="shot" data-lightbox data-caption="Leader of the Pack">
+            <img src="images/leader-of-the-pack.png" width="546" height="412" alt="Wolf portraits in a row from Leader of the Pack, with trait bars under each wolf and a summer territory readout across the top." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">08</p>
+          <h3>Leader of the Pack</h3>
+          <p class="meta">GameMaker Studio</p>
+          <p class="prose">A personnel management game where the player is in charge of a wolf pack, made with GameMaker Studio. Considering the wolves' traits alongside the demands of a dynamic environment creates interesting decisions. Made in a team of two, with artist Madis Arumäe.</p>
+          <p class="links">
+            <a href="https://drive.google.com/open?id=1OZ9eE2VW0n516l1mO8M4itXcHcW790Ry" target="_blank" rel="noopener noreferrer">Windows build<span class="sr-only"> (opens in a new tab)</span></a>
+            <a href="https://drive.google.com/open?id=1rSIYCyAVpSA8aRUDPBacfdQx4qC1Ko7V" target="_blank" rel="noopener noreferrer">GameMaker project<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+
+        <article class="card" id="find-the-code">
+          <button type="button" class="shot" data-lightbox data-caption="Find the Code">
+            <img src="images/find-the-code.png" width="779" height="480" alt="Three tall colored blocks in Find the Code. The center block warns that row number 3 changes, a timer reads 19, and binary digits are printed on the side blocks." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">09</p>
+          <h3>Find the Code</h3>
+          <p class="meta">Unity</p>
+          <p class="prose">A puzzly memory game made with Unity. The player moves around, looking for a code that matches the ever-changing rules. A custom probability curve shapes the challenge, and a countdown clock adds time pressure.</p>
+          <p class="links">
+            <a href="https://martinleis.itch.io/exam" target="_blank" rel="noopener noreferrer">Play on itch.io<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+
+        <article class="card" id="racing-game">
+          <button type="button" class="shot" data-lightbox data-caption="A Racing Game">
+            <img src="images/racing.png" width="683" height="682" alt="Game over screen from the racing game. A pale blue track holds a pixel-style game over message, a score of 322, and a few rectangular obstacles." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">10</p>
+          <h3>A Racing Game</h3>
+          <p class="meta">JavaScript</p>
+          <p class="prose">The player controls a racing car and must avoid obstacles. Made in pure JavaScript, with no libraries.</p>
+          <p class="links">
+            <a href="https://codepen.io/Fiel/full/awWwgp/" target="_blank" rel="noopener noreferrer">Play on CodePen<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+
+        <article class="card" id="worm-game">
+          <button type="button" class="shot" data-lightbox data-caption="A Worm Game">
+            <img src="images/worm.png" width="450" height="410" alt="A red worm on a white field, turning toward a black square, with score and pause controls along the side." loading="lazy" decoding="async">
+            <span class="sr-only">Enlarge screenshot</span>
+          </button>
+          <p class="index">11</p>
+          <h3>A Worm Game</h3>
+          <p class="meta">JavaScript · jQuery · Canvas</p>
+          <p class="prose">A classic worm game, built with JavaScript and jQuery, and drawn on the canvas.</p>
+          <p class="links">
+            <a href="https://codepen.io/Fiel/full/vEdvmq/" target="_blank" rel="noopener noreferrer">Play on CodePen<span class="sr-only"> (opens in a new tab)</span></a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2 class="kicker">About</h2>
+          <p class="about-lead">I'm Martin Leis, a game developer interested in programming, game design, creative writing and narrative design.</p>
+          <p>I'm open to opportunities, preferably in PC or mobile game development.</p>
+        </div>
+        <div>
+          <h3 class="skills-heading">My skills include</h3>
+          <ul class="skills">
+            <li>GameMaker Studio</li>
+            <li>Unity</li>
+            <li>C#</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Adobe Illustrator</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2 class="kicker">Contact</h2>
+        <p class="contact-lead">Email me at</p>
+        <a class="email" href="mailto:martinleis@protonmail.com">martinleis@protonmail.com</a>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:martinleis@protonmail.com">Write an email</a>
+          <button class="button" type="button" data-copy-email="martinleis@protonmail.com">Copy address</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Martin Leis</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Enlarged screenshot">
+    <button class="lb-close" type="button">Close</button>
+    <div class="lb-frame">
+      <img alt="">
+      <p class="lb-caption"></p>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
